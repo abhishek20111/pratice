@@ -11,18 +11,18 @@ current_year = datetime.datetime.now().strftime("%Y")
 try:
     if loen ==4:
         print("you have entered the year of birth :",year)
-        # speak("you have entered the year of birth ")
-        # speak(year)
+        speak("you have entered the year of birth ")
+        speak(year)
         yyears = int(current_year) - int(year)
         print(f"\n\nyou are {yyears} year old")
         print(f"you are {yyears} year old")
         print(f"you are {yyears} year old\n\n")
-        # speak(f"you are {yyears} year old {yyears} year old {yyears} year old")
+        speak(f"you are {yyears} year old {yyears} year old {yyears} year old")
 
         print("Thank for using this program")
-        # speak("Thank for using this program")
+        speak("Thank for using this program")
         print("If you want to know your age in any particular year")
-        # speak("If you want to know your age in any particular year")
+        speak("If you want to know your age in any particular year")
         xx=input("Press '1': To know age in year\n\n")
         if xx == '1':
 
@@ -55,15 +55,15 @@ try:
 
     elif loen == 2:
         print("you have entered you age:",year)
-        # speak("you have entered you age")
-        # speak(year)
+        speak("you have entered you age")
+        speak(year)
         birth_year = int(current_year) -  int(year)
         print(f"\n\nyour birth year is {birth_year}\n\n")
 
         print("Thank for using this program")
-        # speak("Thank for using this program")
+        speak("Thank for using this program")
         print("If you want to know your age in any particular year")
-        # speak("If you want to know your age in any particular year")
+        speak("If you want to know your age in any particular year")
         xx = input("Press '1': To know age in year\n\n\n")
         if xx == '1':
 
